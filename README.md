@@ -2,3 +2,4 @@
 
 1. [Ders 1](https://github.com/batt0s/tbt/blob/master/ders1/TBTMatlab.md)
 2. [Ders 2 - 11/10/2022](https://github.com/batt0s/tbt/blob/master/ders2/ders2.md)
+3. [Ders 3 - 18/10/2022 4. Hafta](https://github.com/batt0s/tbt/blob/master/ders3/ders3.md)
