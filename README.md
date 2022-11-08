@@ -6,3 +6,4 @@
 4. [Ders 4 - 18/10/2022](https://github.com/batt0s/tbt/blob/master/ders4/Ders4.md)
 5. [Ders 5 - 01/11/2022](https://github.com/batt0s/tbt/blob/master/ders5/Ders5.md) 
 6. [Ders 6 - 08/11/2022](https://github.com/batt0s/tbt/blob/master/ders6/Ders6.md) 
+6. [Ders 6 - 08/11/2022](https://github.com/batt0s/tbt/blob/master/ders6/Ders6.md) 
