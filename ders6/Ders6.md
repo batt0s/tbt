@@ -1,5 +1,8 @@
 # TBT MATLAB Ders 6
-(08/11/2022 - Güz Dönemi 7. Hafta)
+**08/11/2022 - Güz Dönemi 7. Hafta**
+
+**İçerik Listesi**
+Sınav öncesi ders olduğu için sadece örnek çözüldü.
 
 **Örnek**: Kullanıcıdan istenilen satır ve sütun sayısına karşılık adresleri belirtilerek bir matris oluşturun.
 ```
@@ -119,3 +122,5 @@ for x=1:999
 end
 sum(m_liste)
 ```
+
+[< Önceki](ders5) 

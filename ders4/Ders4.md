@@ -1,5 +1,11 @@
 # TBT MATLAB Ders 4
-(25/10/2022 - Güz dönemi 5. hafta)
+**25/10/2022 - Güz dönemi 5. hafta**
+
+**İçerik Listesi**
+- [[#Döngüler|Döngüler]]
+	- [[#Döngüler#for Döngüsü|for Döngüsü]]
+	- [[#Döngüler#while Döngüsü|while Döngüsü]]
+
 
 ## Döngüler
 ### for Döngüsü
@@ -122,3 +128,4 @@ end
 fprintf('%g', toplam);
 ```
 
+[< Önceki](ders3) | [Sonraki >](ders5)

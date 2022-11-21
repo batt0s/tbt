@@ -1,5 +1,12 @@
 # TBT MATLAB Ders 5
-(01/11/2022 - Güz Dönemi 6. Hafta)
+**01/11/2022 - Güz Dönemi 6. Hafta**
+
+**İçerik Listesi**
+- [[#break ve continue|break ve continue]]
+	- [[#break ve continue#break|break]]
+	- [[#break ve continue#continue|continue]]
+- [[#`num2str()` ve `str2double()` fonksiyonları|`num2str()` ve `str2double()` fonksiyonları]]
+
 
 ## break ve continue
 Döngünün içerisinde kullanılırlar. 
@@ -130,3 +137,4 @@ end
 fprintf('Armstrong sayılarının toplamı = %d\n', sum(l));
 ```
 
+[< Önceki](ders4) | [Sonraki >](ders6)

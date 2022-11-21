@@ -1,5 +1,17 @@
 # TBT MATLAB Ders 3 
-#### (18/10/2022 - Güz dönemi 4. hafta)
+**18/10/2022 - Güz dönemi 4. hafta**
+
+**İçerik Listesi**
+- [[#Aritmetik ve Mantıksal Operatörler|Aritmetik ve Mantıksal Operatörler]]
+- [[#Koşullu Durumlar|Koşullu Durumlar]]
+		- [[#*Örnek*: Kullanıcıdan istenilen sayının karesini ve sayı sıfırdan büyükse karekökünü bulan program.|*Örnek*: Kullanıcıdan istenilen sayının karesini ve sayı sıfırdan büyükse karekökünü bulan program.]]
+		- [[#*Örnek*: Kullanıcıdan istenilen sayını eğer 0dan küçükse karesini, değilse karekökünü bulan program.|*Örnek*: Kullanıcıdan istenilen sayını eğer 0dan küçükse karesini, değilse karekökünü bulan program.]]
+		- [[#*Örnek*: Kullanıcı tarafından girilen bir sayı $0 \le x < 9$ biçminde ise $\sqrt{x} + ln(x)$ değerini hesaplayan, sayı bu aralıkta değil ise ekrana "Sayı yanlış aralıkta" mesajını veren bir program yazınız.|*Örnek*: Kullanıcı tarafından girilen bir sayı $0 \le x < 9$ biçminde ise $\sqrt{x} + ln(x)$ değerini hesaplayan, sayı bu aralıkta değil ise ekrana "Sayı yanlış aralıkta" mesajını veren bir program yazınız.]]
+		- [[#*Örnek*: Bir araç satış firmasında çalışan personel için maaş hesabı yapılmak istenmektedir. Buna göre aylık satış adedi 5'ten az ise 5500₺ sabit maaş ve satılan her araç için 450₺ prim verilmektedir. Satılan araç adedi 5 veya daha fazla ise 6500₺ sabit maaş ve satılan ilk 5 araç için araç başına 475₺ prim, 5'ten sonraki her araç için 575₺ prim verilmektedir. Buna göre satış adedi verilen personelin maaşını bulan program yapınız.|*Örnek*: Bir araç satış firmasında çalışan personel için maaş hesabı yapılmak istenmektedir. Buna göre aylık satış adedi 5'ten az ise 5500₺ sabit maaş ve satılan her araç için 450₺ prim verilmektedir. Satılan araç adedi 5 veya daha fazla ise 6500₺ sabit maaş ve satılan ilk 5 araç için araç başına 475₺ prim, 5'ten sonraki her araç için 575₺ prim verilmektedir. Buna göre satış adedi verilen personelin maaşını bulan program yapınız.]]
+		- [[#*Örnek*: Kullanıcıdan alınan 3 sayının en küçüğünü bulan program.|*Örnek*: Kullanıcıdan alınan 3 sayının en küçüğünü bulan program.]]
+		- [[#*Örnek*: Gelir vergisinin aşağıdaki kurallara göre alındığını varsayalım.|*Örnek*: Gelir vergisinin aşağıdaki kurallara göre alındığını varsayalım.]]
+
+
 
 ## Aritmetik ve Mantıksal Operatörler
 `=` işareti atama için kullanılırken `==` "eşit mi" gibi bir anlama gelir. \
@@ -36,7 +48,7 @@ ans =
 | && (`and()`) | Ve |
 | \|\| (`or()`) | Veya |
 | xor()  | Koşullu veya (ya da) |
-Not : && ve \|\| işaretleri sadece skalerler için kullanılır. Eğer vektörler (diziler) için kullanmak isterseniz & ve \| kullanmanız gerekir. Aynı zamanda `and()` ve `or()` fonksiyonlarını da kullanabilirsiniz. \
+**Not** : && ve \|\| işaretleri sadece skalerler için kullanılır. Eğer vektörler (diziler) için kullanmak isterseniz & ve \| kullanmanız gerekir. Aynı zamanda `and()` ve `or()` fonksiyonlarını da kullanabilirsiniz. \
 String karşılaştırmak için unutmamak gereken şey "" ın skaler gibi '' vektör gibi işler.
 ```
 'abc' == 'def' 
@@ -213,3 +225,5 @@ end
 
 fprintf('Vergi = %g\n', v); 
 ```
+
+[< Önceki](ders2) | [Sonraki >](ders4)

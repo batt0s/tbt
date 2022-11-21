@@ -1,5 +1,18 @@
 # Matlab 
-#### Ders 2 - 11/10/2022
+**Ders 2 - 11/10/2022**
+
+**İçerik Listesi**
+- [[#input|input]]
+	- [[#input#input Fonksiyonu|input Fonksiyonu]]
+	- [[#input#ÖRNEK : Kullanıcıdan istenilen üç adet sayının ortalmasını bulan MATLAB programı|ÖRNEK : Kullanıcıdan istenilen üç adet sayının ortalmasını bulan MATLAB programı]]
+- [[#fprintf|fprintf]]
+	- [[#fprintf#fprintf fonksiyonu|fprintf fonksiyonu]]
+	- [[#fprintf#ÖRNEK : Kullanıcıdan istenilen 4 adet sayı için aşağıdaki $x$ değerini hesaplayan MATLAB programı|ÖRNEK : Kullanıcıdan istenilen 4 adet sayı için aşağıdaki $x$ değerini hesaplayan MATLAB programı]]
+	- [[#fprintf#ÖRNEK : Kullanıcıdan istenilen yarıçap değeri için bir dairenin çevresini ve alanını bulan program yazınız|ÖRNEK : Kullanıcıdan istenilen yarıçap değeri için bir dairenin çevresini ve alanını bulan program yazınız]]
+- [[#Diziler|Diziler]]
+- [[#Kümeler (Hücre dizileri)|Kümeler (Hücre dizileri)]]
+- [[#Struct|Struct]]
+
 ## input
 ### input Fonksiyonu
 
@@ -192,3 +205,5 @@ ogrenci =
       no: 123
     isim: 'Ali'
 ```
+
+[< Önceki](TBTMatlab) | [Sonraki >](ders3)
