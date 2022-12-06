@@ -226,4 +226,4 @@ end
 fprintf('Vergi = %g\n', v); 
 ```
 
-[< Önceki](ders2) | [Sonraki >](ders4)
+[< Önceki](ders2.md) | [Sonraki >](ders4.md)

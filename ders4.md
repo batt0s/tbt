@@ -128,4 +128,4 @@ end
 fprintf('%g', toplam);
 ```
 
-[< Önceki](ders3) | [Sonraki >](ders5)
+[< Önceki](ders3.md) | [Sonraki >](ders5.md)

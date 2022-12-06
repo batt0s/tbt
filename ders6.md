@@ -123,4 +123,4 @@ end
 sum(m_liste)
 ```
 
-[< Önceki](ders5) 
+[< Önceki](ders5.md) 

@@ -137,4 +137,4 @@ end
 fprintf('Armstrong sayılarının toplamı = %d\n', sum(l));
 ```
 
-[< Önceki](ders4) | [Sonraki >](ders6)
+[< Önceki](ders4.md) | [Sonraki >](ders6.md)

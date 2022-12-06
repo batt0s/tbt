@@ -206,4 +206,4 @@ ogrenci =
     isim: 'Ali'
 ```
 
-[< Önceki](TBTMatlab) | [Sonraki >](ders3)
+[< Önceki](ders1.md) | [Sonraki >](ders3.md)
