@@ -13,7 +13,7 @@ Döngünün içerisinde kullanılırlar.
 
 ### break
 Break kırmak demektir ve kullanılan yerde döngüyü kırıp döngüden çıkar. 
-```
+```matlab
 for i=1:10
     break;
     fprintf('%d\n', i);
@@ -23,7 +23,7 @@ fprintf('Döngü bitti\n');
 Yukarıdaki kodda döngüye girdiği gibi `break` okuyup döngüyü bitirir ve çıktı sadece "Döngü bitti" olur.
 
 **Örnek**: Kullanıcı negatif bir sayı girinceye kadar kullanıcının girdiği sayıları toplayan, negatif sayı girilince uygulamayı sonlandırıp sayıların toplamını söyleyen bir MATLAB programı yazınız.
-```
+```matlab
 x = 0;
 
 while 1
@@ -39,7 +39,7 @@ fprintf('Girdiğiniz sayıların toplamı = %d\n', t);
 
 ### continue
 Devam et anlamına gelir. Döngü içerisinde kullanıldığı yerde döngünün o aşamasını atlar.
-```
+```matlab
 for i=1:10
     continue;
     fprintf('%d', i);
@@ -49,7 +49,7 @@ fprintf('Döngü bitti\n');
 Her seferinde continue diyip sonraki aşamaya geçildiği için i yi hiç yazdırmadan döngüyü bitirir.
 
 **Örnek**: Kullanıcıdan 10 adet sayı isteyen ancak sadece pozitif olanların toplamını bulan MATLAB programı yazınız.
-```
+```matlab
 t = 0;
 
 for i=1:10
@@ -64,7 +64,7 @@ fprintf('Girdiğiniz pozitif sayıların toplamı = %d\n', t);
 ```
 
 **Örnek**: $x=10$ ve $y=7$ olarak verilsin. Bu sayıların toplamı 52347den küçük kaldığı müddetçe $x$ sayısı ikiye katlanarak bu iki sayı toplanmaya devam edilmektedir. Döngü bittiğinde $x$ sayısı kaç kez ikiye katlanmış olur?
-```
+```matlab
 x = 10;
 y = 7;
 i = 0;
@@ -84,7 +84,7 @@ fprintf('x %d kere 2ye katlandı\n', i);
 `num2str()` fonksiyonu verilen sayıyı string e çevirir. `str2double()` fonksiyonu da stringi double a çevirir.
 
 **Örnek**: Kullanıcının girdiği sayının rakamları toplamı.
-```
+```matlab
 n = input('n = ');
 s = num2str(n);
 t = 0;
@@ -97,7 +97,7 @@ fprintf('Basamaklar toplamı = %d\n', t);
 ```
 
 **Not**: Listenin elemanları toplama
-```
+```matlab
 liste = [12,13,14,15,16];
 
 %% Yol I
@@ -120,7 +120,7 @@ fprintf('Toplam = %d \n', toplam);
 ```
 
 **Örnek**: 3 basamaklı sayılar içerisinde basamak değerlerinin 3. kuvvetlerinin toplamı kendisine eşit olan sayılara Armstrong sayısı denir. Buna göre tüm Armstrong sayılarının toplamı kaçtır.
-```
+```matlab
 l = [];
 
 for i=100:999

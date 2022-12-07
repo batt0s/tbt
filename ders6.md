@@ -5,7 +5,7 @@
 Sınav öncesi ders olduğu için sadece örnek çözüldü.
 
 **Örnek**: Kullanıcıdan istenilen satır ve sütun sayısına karşılık adresleri belirtilerek bir matris oluşturun.
-```
+```matlab
 x = input('Satır sayısı = ');
 y = input('Sütun sayısı = ');
 
@@ -25,7 +25,7 @@ disp(M);
 **Not**: `isprime()` fonksiyonu ile bir sayının asal olup olmadığı anlaşılabilir.
 
 **Örnek**: 13x21 lik elemanları asal sayılar olan bir matrisin 3. sütünundaki elemanlar toplamı ile 2. satır elemanlar toplamı farkı
-```
+```matlab
 x = 13;
 y = 21;
 k = 2;
@@ -49,7 +49,7 @@ sum(M(:,3))-sum(M(2,:))
 ```
 
 **Örnek**: Satır ve sütun sayısı kullanıcıdan istenilen ve 0 ile 15 arasında rastgele tamsayı değerler alan bir matris oluşturun. Daha sonra oluşan matristeki 0ların yerlerini ve sayısını bulan bir program yazınız.
-```
+```matlab
 boyut = input('Boyut ([x,y]) = ');
 x = boyut(1);
 y = boyut(2);
@@ -71,7 +71,7 @@ fprintf('%d tane 0 var.\n', s);
 ```
 
 **Örnek**: `transpose()` fonksiyonu kullanmadan kullanıcının girdiği matrisin transpozunu alınız.
-```
+```matlab
 M = input('M = \n');
 
 T = [];
@@ -88,7 +88,7 @@ disp(T);
 ```
 
 **Örnek**: Kullanıcının girdiği sayının mükemmel olup olmadığını bulan program.
-```
+```matlab
 x = input('x = ');
 
 bolenler = [];
@@ -107,7 +107,7 @@ end
 ```
 
 **Örnek**: 1den 999a kadar bütün mükemmel sayıların toplamı.
-```
+```matlab
 m_liste = [];
 for x=1:999
     bolenler = [];
@@ -123,4 +123,4 @@ end
 sum(m_liste)
 ```
 
-[< Önceki](ders5.md) 
+[< Önceki](ders5.md) | [Sonraki >](ders7.md)

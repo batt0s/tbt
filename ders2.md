@@ -4,26 +4,24 @@
 **İçerik Listesi**
 - [[#input|input]]
 	- [[#input#input Fonksiyonu|input Fonksiyonu]]
-	- [[#input#ÖRNEK : Kullanıcıdan istenilen üç adet sayının ortalmasını bulan MATLAB programı|ÖRNEK : Kullanıcıdan istenilen üç adet sayının ortalmasını bulan MATLAB programı]]
 - [[#fprintf|fprintf]]
 	- [[#fprintf#fprintf fonksiyonu|fprintf fonksiyonu]]
-	- [[#fprintf#ÖRNEK : Kullanıcıdan istenilen 4 adet sayı için aşağıdaki $x$ değerini hesaplayan MATLAB programı|ÖRNEK : Kullanıcıdan istenilen 4 adet sayı için aşağıdaki $x$ değerini hesaplayan MATLAB programı]]
-	- [[#fprintf#ÖRNEK : Kullanıcıdan istenilen yarıçap değeri için bir dairenin çevresini ve alanını bulan program yazınız|ÖRNEK : Kullanıcıdan istenilen yarıçap değeri için bir dairenin çevresini ve alanını bulan program yazınız]]
 - [[#Diziler|Diziler]]
 - [[#Kümeler (Hücre dizileri)|Kümeler (Hücre dizileri)]]
 - [[#Struct|Struct]]
+
 
 ## input
 ### input Fonksiyonu
 
 Kullanıcıdan input almak için `input` fonksiyonu kullanılır.
-```
+```matlab
 a = input('a = ')
 ```
 'a = ' yerine tırnak içine herhangi bir şey yazılabilir ve kullanıcıya bilgi verilebilir.
 
-###  ÖRNEK : Kullanıcıdan istenilen üç adet sayının ortalmasını bulan MATLAB programı
-```
+**ÖRNEK**: Kullanıcıdan istenilen üç adet sayının ortalmasını bulan MATLAB programı
+```matlab
 a = input('a = ');
 b = input('b = ');
 c = input('c = ');
@@ -34,28 +32,28 @@ disp(ort);
 ## fprintf
 ### fprintf fonksiyonu
 fprintf fonksiyonu bir değişkenin değerini yazdırmak için % kullanır
-```
+```matlab
 a = 5;
 fprintf('a = %d \n', a);
 ```
 
 `\n` = new line yani yeni satır \
 `\t` = tab yani 4 boşluk
-```
+```matlab
 a = 5;
 b = 7;
 fprintf('a = %d \t b = %d \n', a, b);
 ```
 
 `%d` tam sayı için kullanılırken `%f` (float) ondalıklı sayı için (6 ondalığa kadar yazdırır) kullanılır.
-```
+```matlab
 a = 5;
 b = 22/7;
 fprintf('a = %d \t b = %f \n', a, b);
 ```
 `%.2f` gibi 2 yerine yazılarak kaç basamak ondalık yazılacağı belirtilebilir. \
 String yazdırmak için `%s` kullanılır. Char için de `%c` kullanılır.
-```
+```matlab
 a = 5;
 b = 22/7;
 c = "OGU";
@@ -65,9 +63,9 @@ fprintf('a = %d \t b = %f \nc = %s, d = %c\n', a, b, c, d);
 
 `%g` ise sayıları yazdırmak için kullanılır ve f ile d arasında kararı kendi verir. 5 ondalık yazdırır.
 
-### ÖRNEK : Kullanıcıdan istenilen 4 adet sayı için aşağıdaki $x$ değerini hesaplayan MATLAB programı
+**ÖRNEK**: Kullanıcıdan istenilen 4 adet sayı için aşağıdaki $x$ değerini hesaplayan MATLAB programı
 $$x = |a² - sin(2bc) + \sqrt[12]{d⁵}| $$
-```
+```matlab
 a = input('a = ');
 b = input('b = ');
 c = input('c = ');
@@ -75,10 +73,10 @@ d = input('d = ');
 x = abs(a^2 - sin(2*b*c) + (d^5)^(1/12));
 disp(x);
 ```
-### ÖRNEK : Kullanıcıdan istenilen yarıçap değeri için bir dairenin çevresini ve alanını bulan program yazınız
+**ÖRNEK**: Kullanıcıdan istenilen yarıçap değeri için bir dairenin çevresini ve alanını bulan program yazınız
 $$Çevre = 2\pi r$$
 $$Alan = \pi r²$$
-```
+```matlab
 r = input('Yarıçap değeri = ');
 cevre = 2*pi-r;
 alan = pi*r^2;
@@ -88,7 +86,7 @@ fprintf('Cevre = %f \nAlan = %f\n', cevre, alan);
 ## Diziler
 Diziler tanımlanırken [] kullanılır.
 `A = [1,2,3,4,5]` bu şekilde arasına `,` koyarsanız satır vektörü olur. Eğer `B = [1;2;3;4;5]` şeklinde `;` koyarak kullanırsanız sütun vektörü oluşur.
-```
+```matlab
 A =
 
      1     2     3     4     5
@@ -115,7 +113,7 @@ Dizinin belli bir elemanını almak için kaçıncı elemanı olduğunu parantez
 * `randi` fonksiyonu belirtilen sayılar arasında, istenilen satır ve sütün sayısıyla, istenilen sayıda matris verir. 
 
 1 - 4 arası rastgele sayı.
-```
+```matlab
 >> randi(4)
 
 ans =
@@ -123,7 +121,7 @@ ans =
      2
 ```
 1-4 arası sayılardan oluşan 2x3 lük matris
-```
+```matlab
 >> randi(4,2,3)
 
 ans =
@@ -132,7 +130,7 @@ ans =
      4     1     4
 ```
 1-2 arası sayılardan oluşan 4x2 lik 3 tane matris
-```
+```matlab
 >> randi(2,4,2,3)
 
 ans(:,:,1) =
@@ -159,7 +157,7 @@ ans(:,:,3) =
      1     2
 ```
 2-4 arası sayı
-```
+```matlab
 >> randi([2,4])
 
 ans =
@@ -177,7 +175,7 @@ ans =
 
 ## Kümeler (Hücre dizileri)
 {} kullanılarak oluşturulur. Elemanları her şey olabilir.
-```
+```matlab
 s = {1,2,3,'a'}
 s(1)
 % 1. elemanı olan alt küme
@@ -186,7 +184,7 @@ s{1}
 ```
 
 ## Struct
-```
+```matlab
 ogrenci.no = 123
 ogrenci.isim = 'Ali'
 ```

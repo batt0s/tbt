@@ -1,8 +1,5 @@
 # Temel Bilgi Teknolojileri
-Temel bilgi teknolojileri [ders notları](#dersler) ve örnekler (ornekler klasöründe bulunabilir)
-
-Notları okumak için "**Obsidian**" uygulamasını öneriyorum tabii ki direkt GitHub üzerinden de okuyabilirsiniz. Eğer Obsidian kullanmak istiyorsanız Obsidian uygulamasını indirin ve daha sonrasında bu github reposunu klonlayın. Klonladığınız klasörü Obsidian uygulamasında açın. Daha sonra Obsidian için Git pluginini kurun. GitHub reposu ile kendi klasörünüzü eşlemek istediğiniz zaman  `Ctrl+p` basıp pull yazdığınızda çıkan `Obsidian Git: Pull` komutunu kullanarak eşleyebilirsiniz. Ekleme yapmak için daha sonra contribute.md ekleyeceğim.
-
+Temel bilgi teknolojileri [ders notları](#dersler) ve örnekler (ornekler klasörü).
 
 ## Dersler
 
@@ -12,4 +9,9 @@ Notları okumak için "**Obsidian**" uygulamasını öneriyorum tabii ki direkt 
 4. [Ders 4 - 18/10/2022](ders4.md)
 5. [Ders 5 - 01/11/2022](ders5.md) 
 6. [Ders 6 - 08/11/2022](ders6.md) 
+7. [Ders 7 - 06/12/2022](ders7.md)
+
+## Obsidian
+
+Notları yazmak için "**Obsidian**" uygulamasını kullanıyorum. Notları okumak için de "**Obsidian**" uygulamasını öneriyorum. Tabii ki direkt GitHub üzerinden de okuyabilirsiniz. Obsidian da okumanın bazı avantajları var. Eğer Obsidian kullanmak istiyorsanız Obsidian uygulamasını indirin ve daha sonrasında bu github reposunu klonlayın. Klonladığınız klasörü Obsidian uygulamasında açın. Sağ üst köşeden kitap simgesine basıp "Reading" moduna geçebilirsiniz. GitHub reposu ile kendi klasörünüzü eşlemek istediğiniz zaman  `Ctrl+p` basıp pull yazdığınızda çıkan `Obsidian Git: Pull` komutunu kullanarak eşleyebilirsiniz. Ekleme yapmak için daha sonra contribute.md ekleyeceğim.
 
