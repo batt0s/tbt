@@ -91,3 +91,5 @@ $$f(x,y,z) = \frac{e^{2x+1}-sin(y)}{2\sqrt{z}+ln(z)}$$
 ```matlab
 f = @(x,y,z) [(exp(2*x+1)-sin(y))/(2*sqrt(z)+log(z))]
 ```
+
+[< Önceki](ders6.md) | [Sonraki >](ders8.md)
