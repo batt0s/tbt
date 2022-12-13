@@ -1,4 +1,4 @@
-# TBT MATLAB Ders 7
+# TBT MATLAB Ders 8
 **13/12/2022 - Güz Dönemi 12. Hafta**
 
 **İçerik Listesi**
