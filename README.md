@@ -10,6 +10,7 @@ Temel bilgi teknolojileri [ders notları](#dersler) ve örnekler (ornekler klas�
 5. [Ders 5 - 01/11/2022](ders5.md) 
 6. [Ders 6 - 08/11/2022](ders6.md) 
 7. [Ders 7 - 06/12/2022](ders7.md)
+8. [Ders 8 - 13/12/2022](ders8.md)
 
 ## Obsidian
 
