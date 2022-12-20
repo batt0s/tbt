@@ -114,4 +114,4 @@ function liste = asallar(n)
 end
 ```
 
-[< Önceki](ders7.md)
+[< Önceki](ders7.md) | [Sonraki >](ders9.md)
