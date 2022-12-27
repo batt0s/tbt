@@ -18,3 +18,4 @@ Notları yazmak için "**[Obsidian](https://obsidian.md/)**" uygulamasını kull
 7. [Ders 7 - 06/12/2022](ders7.md)
 8. [Ders 8 - 13/12/2022](ders8.md)
 9. [Ders 9 - 20/12/2022](ders9.md) 
+10. [Ders 10 - 27/12/2022](ders10.md) 

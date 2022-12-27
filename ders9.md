@@ -2,6 +2,11 @@
 **20/12/2022 - Güz Dönemi 13 Hafta**
 
 **İçerik Listesi**
+- [[#Değişkenleri Yer Değiştirme|Değişkenleri Yer Değiştirme]]
+- [[#Seçmeli Sıralama (Selection Sort)|Seçmeli Sıralama (Selection Sort)]]
+- [[#Kabarcık Sıralama (Bubble Sort)|Kabarcık Sıralama (Bubble Sort)]]
+- [[#Sınav için bazı notlar|Sınav için bazı notlar]]
+
 
 ## Değişkenleri Yer Değiştirme
 `x = 3` ve `y = 2` olsun. Bu iki değişkeni yer değiştirmek için geçici bir değişkene ihtiyaç var.
@@ -92,9 +97,9 @@ ans = 3
 ans = 2
 ```
 
-`nargin`: Giriş yapılan parametrelerin sayısı.
-`nargout`: Çıkış istenilen parametrelerin sayısı.
-`varargin`: Giriş yapılan değişkenler.
-`varargout`: Çıkış istenilen tüm değişkenler.
+- `nargin`: Giriş yapılan parametrelerin sayısı.
+- `nargout`: Çıkış istenilen parametrelerin sayısı.
+- `varargin`: Giriş yapılan değişkenler.
+- `varargout`: Çıkış istenilen tüm değişkenler.
 
-[< Önceki](ders8.md)
+[< Önceki](ders8.md) | [Sonraki >](ders10.md)

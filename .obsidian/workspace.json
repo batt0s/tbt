@@ -50,9 +50,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "588f382c3de8fa0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ders10.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -102,8 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c3012f65d8b4f91d",
@@ -119,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ders9.md",
+                "file": "ders10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ders9.md",
+                "file": "ders10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ders9.md"
+                "file": "ders10.md"
               }
             }
           }
@@ -170,17 +181,28 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b23677fd274702e4",
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "588f382c3de8fa0f",
   "lastOpenFiles": [
-    "ders8.md",
     "ders9.md",
+    "ders10.md",
+    "ders8.md",
     "README.md",
     "ders5.md",
     "ders4.md",
     "ders2.md",
     "ders7.md",
     "ders6.md",
-    "ders3.md",
-    "ders1.md"
+    "ders3.md"
   ]
 }
