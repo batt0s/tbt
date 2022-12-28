@@ -1,11 +1,5 @@
 # Temel Bilgi Teknolojileri
-Temel bilgi teknolojileri [ders notları](#dersler) ve örnekler (ornekler klasörü).
-
-
-## Obsidian
-
-Notları yazmak için "**[Obsidian](https://obsidian.md/)**" uygulamasını kullanıyorum. Notları okumak için de "**Obsidian**" uygulamasını öneriyorum. Tabii ki direkt GitHub üzerinden de okuyabilirsiniz. Obsidian da okumanın bazı avantajları var. Eğer Obsidian kullanmak istiyorsanız Obsidian uygulamasını indirin ve daha sonrasında bu github reposunu klonlayın. Klonladığınız klasörü Obsidian uygulamasında açın. Sağ üst köşeden kitap simgesine basıp "Reading" moduna geçebilirsiniz. GitHub reposu ile kendi klasörünüzü eşlemek istediğiniz zaman  `Ctrl+p` basıp pull yazdığınızda çıkan `Obsidian Git: Pull` komutunu kullanarak eşleyebilirsiniz. Ekleme yapmak için daha sonra contribute.md ekleyeceğim.
-
+Temel bilgi teknolojileri [ders notları](#dersler) ve [örnekler](https://github.com/batt0s/tbt/tree/master/ornekler).
 
 ## Dersler
 

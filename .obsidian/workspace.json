@@ -57,8 +57,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ders10.md",
-                "mode": "source",
+                "file": "README.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ders10.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ders10.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ders10.md"
+                "file": "README.md"
               }
             }
           }
@@ -194,15 +194,15 @@
   },
   "active": "588f382c3de8fa0f",
   "lastOpenFiles": [
-    "ders9.md",
     "ders10.md",
+    "ders9.md",
     "ders8.md",
-    "README.md",
-    "ders5.md",
-    "ders4.md",
-    "ders2.md",
     "ders7.md",
     "ders6.md",
-    "ders3.md"
+    "ders5.md",
+    "ders4.md",
+    "ders3.md",
+    "ders2.md",
+    "ders1.md"
   ]
 }
