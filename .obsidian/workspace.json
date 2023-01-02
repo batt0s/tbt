@@ -57,8 +57,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "preview",
+                "file": "all.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "all.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "all.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "all.md"
               }
             }
           }
@@ -196,8 +196,8 @@
   "lastOpenFiles": [
     "ders10.md",
     "ders9.md",
-    "ders8.md",
     "ders7.md",
+    "ders8.md",
     "ders6.md",
     "ders5.md",
     "ders4.md",
